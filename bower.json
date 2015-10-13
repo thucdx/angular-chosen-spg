@@ -9,9 +9,27 @@
   ],
   "ignore": [
     "src",
-    "example"
+    "example",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
   ],
   "dependencies": {
     "angular": ">=1.2.0"
-  }
+  },
+  "authors": [
+    "thucdx@nal.vn"
+  ],
+  "description": "modified version of angular-chosen-localytics for my project",
+  "moduleType": [],
+  "keywords": [
+    "chosen",
+    "angular",
+    "spg"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/thucdx/angular-chosen-spg",
+  "private": true
 }
