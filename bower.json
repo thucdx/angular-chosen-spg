@@ -1,0 +1,17 @@
+{
+  "name": "angular-chosen-spg",
+  "version": "1.0.7",
+  "main": [
+    "chosen.js",
+    "chosen.jquery.min.js",
+    "chosen-spinner.css",
+    "chosen.min.css"
+  ],
+  "ignore": [
+    "src",
+    "example"
+  ],
+  "dependencies": {
+    "angular": ">=1.2.0"
+  }
+}
