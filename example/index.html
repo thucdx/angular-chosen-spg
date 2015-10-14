@@ -1,0 +1,21 @@
+<html ng-app='ngApp'>
+	<head>
+		<title>Index</title>
+		
+		<link rel="stylesheet" href="../bootstrap-chosen.css">
+		
+		<script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="../bower_components/angular/angular.min.js"></script>
+		<script type="text/javascript" src="../chosen.jquery.min.js"></script>
+		<script type="text/javascript" src="../chosen.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+	</head>
+
+	<body ng-controller="ChosenDemoCtrl">
+		<select chosen allow-single-deselect="true" ng-model="selectedOption" ng-options="o for o in allOptions" style="width:200px">
+			<option value=""></option>
+		</select>
+		<br>
+		<div>You choose: {{selectedOption}}</div>
+	</body>
+</html>
