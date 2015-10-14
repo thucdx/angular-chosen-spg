@@ -4,8 +4,7 @@
   "main": [
     "chosen.js",
     "chosen.jquery.min.js",
-    "chosen-spinner.css",
-    "chosen.min.css"
+    "bootstrap-chosen.css"
   ],
   "ignore": [
     "src",
@@ -17,7 +16,8 @@
     "tests"
   ],
   "dependencies": {
-    "angular": ">=1.2.0"
+    "angular": ">=1.2.0",
+    "jquery": ">=2.1.1"
   },
   "authors": [
     "thucdx@nal.vn"
