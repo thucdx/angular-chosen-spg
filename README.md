@@ -3,7 +3,7 @@ angular-chosen-spg
 
 AngularJS Chosen directive
 
-This is modified version of [Angular-Chosen-Localytics](https://github.com/localytics/angular-chosen). I made change for easily integrate with bower.
+This is modified version of [Angular-Chosen-Localytics](https://github.com/localytics/angular-chosen). I made change for easily integrate with bower, and supporting bootstrap style.
 
 This directive brings the [Chosen](http://harvesthq.github.com/chosen/) jQuery plugin
 into AngularJS with ngModel and ngOptions integration.
